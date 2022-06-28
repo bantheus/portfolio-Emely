@@ -1,0 +1,23 @@
+/*--FONTE--*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*--TIPOGRAFIA--*/
+:root {
+	--body-font: "Montserrat", sans-serif;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+	--normal-font-size: 0.938rem;
+	--small-font-size: 0.813rem;
+	--smaller-font-size: 0.75rem;
+}
+
+/*--TIPOGRAFIA RESPONSIVA--*/
+@media screen and (min-width: 968px) {
+	:root {
+		--h2-font-size: 1.5rem;
+		--h3-font-size: 1.25rem;
+		--normal-font-size: 1rem;
+		--small-font-size: 0.875rem;
+		--smaller-font-size: 0.813rem;
+	}
+}
