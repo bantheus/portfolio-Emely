@@ -1,6 +1,7 @@
 /*--IMPORTS--*/
 @import "font.css";
 @import "color.css";
+@import "breakpoint.css";
 
 /*--RESET--*/
 * {
