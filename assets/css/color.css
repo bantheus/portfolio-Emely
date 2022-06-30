@@ -1,15 +1,15 @@
 /*--CORES--*/
 :root {
-	--color-1: hsl(174, 63%, 67%);
-	--color-2: hsl(5, 94%, 87%);
-	--color-3: hsl(291, 47%, 78%);
+	--color-1: hsl(174, 63%, 65%);
+	--color-2: hsl(5, 94%, 65%);
+	--color-3: hsl(291, 47%, 65%);
 
 	--hue: 356;
 	--sat: 66%;
 	--lig: 75%;
 
 	--first-color: hsl(var(--hue), var(--sat), var(--lig));
-	--first-color-alt: hsl(var(--hue), var(--sat), 57%);
+	--first-color-alt: hsl(var(--hue), var(--sat), 60%);
 	--title-color: hsl(var(--hue), 12%, 15%);
 	--text-color: hsl(var(--hue), 12%, 45%);
 	--text-color-light: hsl(var(--hue), 8%, 75%);

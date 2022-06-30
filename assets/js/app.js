@@ -25,19 +25,19 @@ const toggleTheme3 = document.getElementById("theme-button-3");
 function changeColor() {
 	document.documentElement.style.setProperty("--hue", "174");
 	document.documentElement.style.setProperty("--sat", "63%");
-	document.documentElement.style.setProperty("--lig", "67%");
+	document.documentElement.style.setProperty("--lig", "65%");
 }
 
 function changeColor2() {
 	document.documentElement.style.setProperty("--hue", "5");
 	document.documentElement.style.setProperty("--sat", "94%");
-	document.documentElement.style.setProperty("--lig", "87%");
+	document.documentElement.style.setProperty("--lig", "65%");
 }
 
 function changeColor3() {
 	document.documentElement.style.setProperty("--hue", "291");
 	document.documentElement.style.setProperty("--sat", "47%");
-	document.documentElement.style.setProperty("--lig", "78%");
+	document.documentElement.style.setProperty("--lig", "65%");
 }
 /*--DARK / LIGHT THEME--*/
 const themeButton = document.getElementById("theme-button");
