@@ -426,6 +426,10 @@ img {
 		justify-content: center;
 		column-gap: 3rem;
 	}
+
+	.drive {
+		margin-top: 2rem;
+	}
 }
 
 @media screen and (min-width: 1106px) {
