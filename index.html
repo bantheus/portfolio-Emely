@@ -17,7 +17,7 @@
 			<!--BOTÃO DARK MODE-->
 			<i class="ri-moon-line change-theme" id="theme-button"></i>
 			<i
-				class="ri-checkbox-blank-circle-fill change-theme "
+				class="ri-checkbox-blank-circle-fill change-theme"
 				onclick="changeColor()"
 				id="theme-button-1"
 			></i>
@@ -82,7 +82,7 @@
 					</div>
 				</div>
 
-				<div class="profile__buttons">
+				<div class="profile__buttons buttons">
 					<!--TODO: Adicionar curriculo-->
 					<a href="" download="" class="button"
 						>Download CV<i class="ri-download-line"></i>
@@ -115,10 +115,10 @@
 		<main class="main">
 			<section class="filters container">
 				<ul class="filters__content">
-					<button class="filters__button filter-tab-active" data-target="#projects">
+					<button class="filters__button filter-tab-active" data-target="#projects" onclick="mostraBotao()">
 						Meus Projetos
 					</button>
-					<button class="filters__button" data-target="#skills">Sobre mim</button>
+					<button class="filters__button" data-target="#skills" onclick="escondeBotao()">Sobre mim</button>
 				</ul>
 
 				<div class="filters__sections">
@@ -127,79 +127,67 @@
 						data-content
 						id="projects"
 					>
-						<article class="projects__card">
-							<img
-								src="assets/img/1.jpg"
-								loading="lazy"
-								alt=""
-								class="projects__img"
-							/>
-						</article>
+							<article class="projects__card">
+								<img
+									src="assets/img/1.jpg"
+									loading="lazy"
+									alt=""
+									class="projects__img"
+								/>
+							</article>
 
-						<article class="projects__card">
-							<img
-								src="assets/img/2.jpg"
-								loading="lazy"
-								alt=""
-								class="projects__img"
-							/>
-						</article>
+							<article class="projects__card">
+								<img
+									src="assets/img/2.jpg"
+									loading="lazy"
+									alt=""
+									class="projects__img"
+								/>
+							</article>
 
-						<article class="projects__card">
-							<img
-								src="assets/img/3.jpg"
-								loading="lazy"
-								alt=""
-								class="projects__img"
-							/>
-						</article>
+							<article class="projects__card">
+								<img
+									src="assets/img/3.jpg"
+									loading="lazy"
+									alt=""
+									class="projects__img"
+								/>
+							</article>
 
-						<article class="projects__card">
-							<img
-								src="assets/img/6.jpg"
-								loading="lazy"
-								alt=""
-								class="projects__img"
-							/>
-						</article>
+							<article class="projects__card">
+								<img
+									src="assets/img/6.jpg"
+									loading="lazy"
+									alt=""
+									class="projects__img"
+								/>
+							</article>
 
-						<article class="projects__card">
-							<img
-								src="assets/img/10.jpg"
-								loading="lazy"
-								alt=""
-								class="projects__img"
-							/>
-						</article>
+							<article class="projects__card">
+								<img
+									src="assets/img/10.jpg"
+									loading="lazy"
+									alt=""
+									class="projects__img"
+								/>
+							</article>
 
-						<article class="projects__card">
-							<img
-								src="assets/img/5.jpg"
-								loading="lazy"
-								alt=""
-								class="projects__img"
-							/>
-						</article>
+							<article class="projects__card">
+								<img
+									src="assets/img/5.jpg"
+									loading="lazy"
+									alt=""
+									class="projects__img"
+								/>
+							</article>
+						</div>
 
-						<article class="pagination">
-							<ul class="page">
-								<a href="#page">
-									<li>Voltar</li>
-								</a>
-								<a href="#page">
-									<li>Próximo</li>
-								</a>
-								<a href="#page">
-									<li>1</li>
-								</a>
-								<a href="#page">
-									<li>2</li>
-								</a>
-								<a href="#page">
-									<li>3</li>
-								</a>
-							</ul>
-						</article>
+						<div class="profile__buttons drive">
+							<!--TODO: Adicionar curriculo-->
+							<a href="#" class="button" id="botao-drive"
+								>Outras Artes<i class="ri-drive-line"></i>
+							</a>
+						</div>
 					</div>
 
 					<div class="skills__content grid" data-content id="skills">
@@ -333,7 +321,7 @@
 					</div>
 				</div>
 			</section>
-		</main>
+		</main> 
 
 		<footer class="footer container">
 			<span class="footer__copy"> &copy; 2022 Matheus Schmidt. </span>

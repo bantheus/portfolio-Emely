@@ -280,12 +280,8 @@ img {
 }
 
 /*--PAGINATION--*/
-.page {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding: 0.75rem;
+.drive {
+	margin-top: 1.5rem;
 }
 
 /*--SKILLS--*/

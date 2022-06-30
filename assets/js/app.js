@@ -88,6 +88,14 @@ sr.reveal(".change-theme", { interval: 100, delay: 600 });
 sr.reveal(".profile__name", { delay: 500 });
 sr.reveal(".profile__social", { delay: 600 });
 sr.reveal(".profile__info-group", { interval: 100, delay: 600 });
-sr.reveal(".profile__buttons", { delay: 700 });
+sr.reveal(".buttons", { delay: 700 });
 sr.reveal(".profile__content", { delay: 800 });
 sr.reveal(".filters", { delay: 900 });
+
+function escondeBotao() {
+	document.getElementById("botao-drive").style.display = "none";
+}
+
+function mostraBotao() {
+	document.getElementById("botao-drive").style.display = "flex";
+}
