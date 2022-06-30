@@ -16,6 +16,21 @@
 		<header class="profile container">
 			<!--BOTÃO DARK MODE-->
 			<i class="ri-moon-line change-theme" id="theme-button"></i>
+			<i
+				class="ri-checkbox-blank-circle-fill change-theme"
+				onclick="changeColor()"
+				id="theme-button-1"
+			></i>
+			<i
+				class="ri-checkbox-blank-circle-fill change-theme"
+				onclick="changeColor2()"
+				id="theme-button-2"
+			></i>
+			<i
+				class="ri-checkbox-blank-circle-fill change-theme"
+				onclick="changeColor3()"
+				id="theme-button-3"
+			></i>
 
 			<div class="profile__container grid">
 				<div class="profile__data">
@@ -26,18 +41,17 @@
 					</div>
 
 					<h2 class="profile__name">Emely Larissa</h2>
-					<h3 class="profile__profession">Designer</h3>
 
 					<!--TODO: Adicionar links social medias-->
 					<ul class="profile__social">
 						<a href="#" target="_blank" class="profile__social-link">
-							<i class="ri-instagram-fill"></i>
+							<i class="ri-instagram-line"></i>
 						</a>
 						<a href="#" target="_blank" class="profile__social-link">
-							<i class="ri-linkedin-box-fill"></i>
+							<i class="ri-linkedin-line"></i>
 						</a>
 						<a href="#" target="_blank" class="profile__social-link">
-							<i class="ri-facebook-circle-fill"></i>
+							<i class="ri-facebook-line"></i>
 						</a>
 					</ul>
 				</div>
@@ -116,16 +130,6 @@
 								alt=""
 								class="projects__img"
 							/>
-
-							<div class="projects__modal">
-								<div>
-									<span class="projects__subtitle">Lorem</span>
-									<h3 class="projects__title">Lorem Ipsun</h3>
-									<a href="" class="projects__button button button__small">
-										<i class="ri-link"></i>
-									</a>
-								</div>
-							</div>
 						</article>
 
 						<article class="projects__card">
@@ -135,16 +139,6 @@
 								alt=""
 								class="projects__img"
 							/>
-
-							<div class="projects__modal">
-								<div>
-									<span class="projects__subtitle">Lorem</span>
-									<h3 class="projects__title">Lorem ipsun</h3>
-									<a href="" class="projects__button button button__small">
-										<i class="ri-link"></i>
-									</a>
-								</div>
-							</div>
 						</article>
 
 						<article class="projects__card">
@@ -154,16 +148,6 @@
 								alt=""
 								class="projects__img"
 							/>
-
-							<div class="projects__modal">
-								<div>
-									<span class="projects__subtitle">Lorem</span>
-									<h3 class="projects__title">Lorem Ipsun</h3>
-									<a href="" class="projects__button button button__small">
-										<i class="ri-link"></i>
-									</a>
-								</div>
-							</div>
 						</article>
 
 						<article class="projects__card">
@@ -173,16 +157,6 @@
 								alt=""
 								class="projects__img"
 							/>
-
-							<div class="projects__modal">
-								<div>
-									<span class="projects__subtitle">Lorem</span>
-									<h3 class="projects__title">Lorem Ipsun</h3>
-									<a href="" class="projects__button button button__small">
-										<i class="ri-link"></i>
-									</a>
-								</div>
-							</div>
 						</article>
 
 						<article class="projects__card">
@@ -192,16 +166,6 @@
 								alt=""
 								class="projects__img"
 							/>
-
-							<div class="projects__modal">
-								<div>
-									<span class="projects__subtitle">Lorem</span>
-									<h3 class="projects__title">Lorem Ipsun</h3>
-									<a href="" class="projects__button button button__small">
-										<i class="ri-link"></i>
-									</a>
-								</div>
-							</div>
 						</article>
 
 						<article class="projects__card">
@@ -211,20 +175,18 @@
 								alt=""
 								class="projects__img"
 							/>
+						</article>
 
-							<div class="projects__modal">
-								<div>
-									<span class="projects__subtitle">Lorem</span>
-									<h3 class="projects__title">Lorem Ipsun</h3>
-									<a href="" class="projects__button button button__small">
-										<i class="ri-link"></i>
-									</a>
-								</div>
-							</div>
+						<article>
+							<ul class="page">
+								<a href="#page">
+									<li>Voltar</li>
+								</a>
+							</ul>
 						</article>
 					</div>
 
-					<div class="skills__content grid filters__active" data-content id="skills">
+					<div class="skills__content grid" data-content id="skills">
 						<div class="skills__area">
 							<h3 class="skills__title">Skills !!!</h3>
 
@@ -361,5 +323,6 @@
 			<span class="footer__copy"> &copy; 2022 Matheus Schmidt. </span>
 			<a href=""><i class="ri-github-fill"></i></a>
 		</footer>
+		<script src="https://unpkg.com/scrollreveal"></script>
 	</body>
 </html>

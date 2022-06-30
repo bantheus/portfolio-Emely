@@ -1,8 +1,12 @@
 /*--CORES--*/
 :root {
-	--hue: 207;
-	--sat: 90%;
-	--lig: 61%;
+	--color-1: hsl(207, 90%, 61%);
+	--color-2: hsl(356, 66%, 75%);
+	--color-3: hsl(278, 34%, 70%);
+
+	--hue: 356;
+	--sat: 66%;
+	--lig: 75%;
 
 	--first-color: hsl(var(--hue), var(--sat), var(--lig));
 	--first-color-alt: hsl(var(--hue), var(--sat), 57%);

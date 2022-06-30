@@ -18,6 +18,27 @@ tabs.forEach((tab) => {
 	});
 });
 
+const toggleTheme1 = document.getElementById("theme-button-1");
+const toggleTheme2 = document.getElementById("theme-button-2");
+const toggleTheme3 = document.getElementById("theme-button-3");
+
+function changeColor() {
+	document.documentElement.style.setProperty("--hue", "207");
+	document.documentElement.style.setProperty("--sat", "90%");
+	document.documentElement.style.setProperty("--lig", "61%");
+}
+
+function changeColor2() {
+	document.documentElement.style.setProperty("--hue", "356");
+	document.documentElement.style.setProperty("--sat", "66%");
+	document.documentElement.style.setProperty("--lig", "75%");
+}
+
+function changeColor3() {
+	document.documentElement.style.setProperty("--hue", "278");
+	document.documentElement.style.setProperty("--sat", "34%");
+	document.documentElement.style.setProperty("--lig", "70%");
+}
 /*--DARK / LIGHT THEME--*/
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
@@ -53,3 +74,19 @@ themeButton.addEventListener("click", () => {
 	localStorage.setItem("selected-theme", getCurrentTheme());
 	localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*--SCROLL REVEAL--*/
+const sr = ScrollReveal({
+	origin: "top",
+	distance: "60px",
+	duration: 2500,
+	delay: 400,
+});
+
+sr.reveal(".profile__border");
+sr.reveal(".profile__name", { delay: 500 });
+sr.reveal(".profile__social", { delay: 600 });
+sr.reveal(".profile__info-group", { interval: 100, delay: 600 });
+sr.reveal(".profile__buttons", { delay: 700 });
+sr.reveal(".profile__content", { delay: 800 });
+sr.reveal(".filters", { delay: 900 });
