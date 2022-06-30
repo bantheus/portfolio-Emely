@@ -23,21 +23,21 @@ const toggleTheme2 = document.getElementById("theme-button-2");
 const toggleTheme3 = document.getElementById("theme-button-3");
 
 function changeColor() {
-	document.documentElement.style.setProperty("--hue", "207");
-	document.documentElement.style.setProperty("--sat", "90%");
-	document.documentElement.style.setProperty("--lig", "61%");
+	document.documentElement.style.setProperty("--hue", "174");
+	document.documentElement.style.setProperty("--sat", "63%");
+	document.documentElement.style.setProperty("--lig", "67%");
 }
 
 function changeColor2() {
-	document.documentElement.style.setProperty("--hue", "356");
-	document.documentElement.style.setProperty("--sat", "66%");
-	document.documentElement.style.setProperty("--lig", "75%");
+	document.documentElement.style.setProperty("--hue", "5");
+	document.documentElement.style.setProperty("--sat", "94%");
+	document.documentElement.style.setProperty("--lig", "87%");
 }
 
 function changeColor3() {
-	document.documentElement.style.setProperty("--hue", "278");
-	document.documentElement.style.setProperty("--sat", "34%");
-	document.documentElement.style.setProperty("--lig", "70%");
+	document.documentElement.style.setProperty("--hue", "291");
+	document.documentElement.style.setProperty("--sat", "47%");
+	document.documentElement.style.setProperty("--lig", "78%");
 }
 /*--DARK / LIGHT THEME--*/
 const themeButton = document.getElementById("theme-button");
@@ -78,12 +78,13 @@ themeButton.addEventListener("click", () => {
 /*--SCROLL REVEAL--*/
 const sr = ScrollReveal({
 	origin: "top",
-	distance: "60px",
-	duration: 2500,
+	distance: "50px",
+	duration: 2000,
 	delay: 400,
 });
 
 sr.reveal(".profile__border");
+sr.reveal(".change-theme", { interval: 100, delay: 600 });
 sr.reveal(".profile__name", { delay: 500 });
 sr.reveal(".profile__social", { delay: 600 });
 sr.reveal(".profile__info-group", { interval: 100, delay: 600 });
