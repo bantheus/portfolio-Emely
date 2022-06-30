@@ -356,6 +356,17 @@ img {
 	.skills__box {
 		height: 300px;
 	}
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0.5rem;
+	}
+
+	.footer__copy,
+	.footer a {
+		font-size: var(--smaller-font-size);
+	}
 }
 
 @media screen and (min-width: 576px) {
