@@ -279,6 +279,15 @@ img {
 	padding: 0.5rem;
 }
 
+/*--PAGINATION--*/
+.page {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0.75rem;
+}
+
 /*--SKILLS--*/
 .skills__content {
 	row-gap: 3.5rem;
@@ -352,7 +361,7 @@ img {
 }
 
 .footer a:hover {
-	color: var(--first-color);
+	color: var(--first-color-alt);
 }
 
 .footer__copy {
